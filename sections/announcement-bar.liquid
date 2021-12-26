@@ -3,11 +3,19 @@
 {%- for block in section.blocks -%}
   {%- case block.type -%}
     {%- when 'announcement' -%}
+<<<<<<< HEAD
     <div class="announce-bar" style="background: {{ block.settings.background_color }} color: {{ block.settings.announcement_text_color }};" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>  
       
         {%- if block.settings.text != blank -%}
           {%- if block.settings.link != blank -%}
             <a href="{{ block.settings.link }}" >
+=======
+    <div class="announce-bar" style="background: {{ block.settings.background_color }};" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>  
+      
+        {%- if block.settings.text != blank -%}
+          {%- if block.settings.link != blank -%}
+            <a href="{{ block.settings.link }}" style="color: {{ block.settings.announcement_text_color }}; text-decoration: none">
+>>>>>>> staging
           {%- endif -%}
               
                 {{ block.settings.text | escape }}
@@ -46,7 +54,11 @@
 {
   "type": "color",
   "id": "announcement_text_color",
+<<<<<<< HEAD
   "label": "Background",
+=======
+  "label": "Text Color",
+>>>>>>> staging
   "default": "#ffffff"
 },
 

@@ -16,9 +16,16 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
+<<<<<<< HEAD
               "text": "50% Off For Christmas",
               "color_scheme": "inverse",
               "link": "shopify:\/\/collections\/adidas"
+=======
+              "text": "Welcome to our store",
+              "background_color": "#564ecc",
+              "announcement_text_color": "#f7f7f7",
+              "link": "shopify:\/\/products\/adidas-classic-backpack"
+>>>>>>> staging
             }
           }
         },
@@ -94,7 +101,6 @@
             "announcement-bar-0": {
               "type": "announcement",
               "settings": {
-                "color_scheme": "background-1"
               }
             }
           },
