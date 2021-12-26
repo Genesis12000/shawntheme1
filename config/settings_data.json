@@ -18,8 +18,8 @@
             "settings": {
               "text": "50% Off",
               "background_color": "#625cb9",
-              "announcement_text_color": "#da1414",
-              "link": ""
+              "announcement_text_color": "#ffffff",
+              "link": "shopify:\/\/collections\/adidas"
             }
           }
         },
